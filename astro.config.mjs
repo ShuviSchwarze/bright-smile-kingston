@@ -7,7 +7,8 @@ import tinaDirective from "./astro-tina-directive/register"
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://shuvischwarze.github.io', //TODO: Change this to use env variables
+	base: '/bright-smile-kingston',
 	integrations: [mdx(), sitemap(), react(), tinaDirective()],
 	redirects: {
 		'/admin': '/admin/index.html'
