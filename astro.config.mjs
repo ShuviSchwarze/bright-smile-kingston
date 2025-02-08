@@ -9,7 +9,7 @@ import tinaDirective from "./astro-tina-directive/register"
 export default defineConfig({
 	site: 'http://bright-smile-kingston.shuvischwarze.com', //TODO: Change this to use env variables
 	integrations: [mdx(), sitemap(), react(), tinaDirective()],
-	redirects: {
-		'/admin': '/admin/index.html'
-	  }
+	// redirects: {
+	// 	'/admin': '/admin/index.html'
+	//   }
 });
