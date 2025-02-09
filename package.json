@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"astro dev\"",
     "build": "tinacms build && astro build",
+    "pretty": "pnpm dlx prettier -w ./src ./tina",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -24,6 +25,8 @@
     "@tinacms/cli": "^1.8.0",
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.8",
+    "prettier": "^3.4.2",
+    "prettier-plugin-astro": "^0.14.1",
     "typescript": "^5.7.3"
   }
 }
